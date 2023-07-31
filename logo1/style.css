@@ -1,0 +1,689 @@
+@font-face {
+    font-family: LatoBlackItalic;
+    src: url(./front/Lato/Lato-BlackItalic.ttf);
+  }
+@font-face {
+    font-family: LatoLight;
+    src: url(./front/Lato/Lato-Light.ttf);
+  }
+@font-face {
+    font-family: Bebas;
+    src: url(./front/Bebas_Neue/BebasNeue-Regular.ttf);
+  }
+@font-face {
+    font-family: OswaldBold;
+    src: url(./front/Oswald/static/Oswald-Bold.ttf);
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.img-list .logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid #8f8d8d;
+}
+
+.header-us .img-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 55%;
+    padding-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.header-us .img-list .list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.header-us .img-list .list ul li a {text-decoration: none;color: white;border-bottom: 1px solid white;font-weight: 600;font-family: LatoBlackItalic;}
+
+.header-us{
+    background-image: url("background/background-1.png");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    width: -webkit-fill-available;
+}
+
+.header-us .title {
+    position: absolute;
+    top: 18%;
+    left: 25%;
+}
+
+.header-us .title h1 {
+    font-size: 65px;
+    margin: 0px;
+    color: #373737;
+}
+
+.header-us .title h2 {
+    font-size: 72px;
+    margin: 0px;
+    color: #151545;
+}
+
+.header {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    /* height: 100vh; */
+}
+
+/* ***Sticky-Nav section ***** */
+
+.logo .img img {
+    width: 50px;
+    height: 50px;
+    border: 1px solid #8f8d8d;
+    border-radius: 50%;
+}
+
+.Sticky-Nav .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Sticky-Nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column-gap: 45%;
+    padding: 10px 0px;
+    width: 86%;
+    margin: auto;
+}
+
+.Sticky-Nav .list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.Sticky-Nav .list ul li a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #16244a;
+    font-weight: 600;
+    font-family: LatoBlackItalic;
+}
+
+.Sticky-Nav .logo .logo-title h1 {
+    margin: 0px;
+    color: #373737;
+    font-size: 20px;
+    font-weight: unset;
+    font-family: 'Bebas';
+}
+
+.Sticky-Nav .logo .logo-title h2 {
+    margin: 0px;
+    color: #151545;
+    font-size: 22px;
+    font-weight: unset;
+    font-family: Bebas;
+}
+
+.logo-title {
+    margin-left: 10px;
+    font-weight: unset;
+    letter-spacing: 1px;
+    line-height: 17px;
+}
+
+/* ****history section**** */
+
+.image .image-us img {
+    width: 240px;
+    height: 140px;
+}
+
+.history .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    bottom: 0px;
+    background: #3c496099;
+    width: -webkit-fill-available;
+    left: 0px;
+    padding: 25px 0px;
+    grid-column-gap: 1%;
+    /* padding-right: 6%; */
+    padding-bottom: 0;
+}
+.history-all{
+    background-image: url("background/background-3.png");
+    background-position: 100% 22%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.title-1 {
+    display: flex;
+    align-items: center;
+    /* padding-left: 345px; */
+    position: relative;
+    width: 12.7%;
+    height: 200px;
+}
+
+.title-1 h1 {font-size: 180px;font-family: OswaldBold;margin: 0px;font-weight: unset;color: #697a95;}
+
+.title-1 h3 {
+    font-size: 30px;
+    font-family: OswaldBold;
+    font-weight: 800;
+    margin: 0px;
+    position: absolute;
+    color: #414f6b;
+    bottom: 24%;
+    right: -32%;
+}
+
+.description p {
+    width: 82%;
+    /* padding-left: 345px; */
+    margin: 0px;
+    color: #283e47;
+    font-weight: 700;
+    font-family: LatoLight;
+}
+.history {
+    padding-top: 30px;
+    display: grid;
+    height: 100vh;
+    align-content: space-between;
+    overflow: hidden;
+}
+
+/* *****history-2**** */
+
+.title-2 {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.title-2 h1 {font-size: 150px;font-family: OswaldBold;margin: 0px;font-weight: unset;color: #8f979b;}
+
+.title-2 h3 {
+    font-size: 30px;
+    font-family: OswaldBold;
+    font-weight: 800;
+    margin: 0px;
+    position: absolute;
+    color: #414f6b;
+    right: -24%;
+    bottom: 30%;
+}
+.description-2 p {
+    width: 67%;
+    margin: 0px;
+    color: #283e47;
+    padding-left: 9%;
+    font-family: LatoLight;
+    font-weight: 700;
+    line-height: 25px;
+}
+.history-2 .history-us {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 3%;
+}
+
+.slider-btn ul {
+    display: flex;
+    grid-column-gap: 10px;
+    justify-content: center;
+}
+
+.mountain .mountain-nev ul {
+    /* background: #0d2f3c; */
+    display: flex;
+    /* padding-left: 230px; */
+    list-style: none;
+    gap: 30px;
+    margin: 0px;
+}
+
+.mountain .mountain-nev ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    border-bottom: 1px solid #8f979b;
+    font-family: OswaldBold;
+    color: #8f979b;
+    padding: 8px 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.mountain-nev {
+    /* background: #0d2f3c; */
+    /* margin: 0px; */
+}
+
+.mountain .mountain-nev ul li {background: unset;/* padding: 10px; */display: flex;align-items: center;justify-content: center;}
+
+
+/* ****mountain-1**** */
+.mountain-all{
+    /* height: 600px; */
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.mon {padding-top: 40px;}
+
+
+.mon .schedule {
+    background: #ffffffcc;
+    width: max-content;
+    padding: 20px 60px;
+    margin-left: 23%;
+    margin-top: 6%;
+}
+
+.mon .schedule pre {
+    margin: -8px 0px 10px 0px;
+    font-size: 17px;
+    font-family: LatoLight;
+    font-weight: 700;
+}
+.schedule h1 {
+    margin: 0px 0px 10px 0px;
+    font-size: 25px;
+    color: #0d2f3c;
+    margin-bottom: 20px;
+    font-family: OswaldBold;
+}
+
+
+/* ****footer**** */
+.footer-logo .img img {
+    /* width: 38px; */
+    /* border: 1px solid #8f8d8d; */
+    /* border-radius: 50%; */
+}
+
+.footer-us .footer-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.footer-us {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0px;
+    background: #414f6b;
+}
+
+.footer-us .list ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+
+.footer-us .list ul li a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+    color: #16244a;
+}
+
+.footer-us .footer-logo .footer-title h1 {
+    margin: 0px;
+    color: #ffffff8a;
+    font-size: 20px;
+}
+
+.footer-us .footer-logo .footer-title h2 {
+    margin: 0px;
+    color: #ffffff87;
+    font-size: 22px;
+}
+
+.footer-title {
+    margin-left: 10px;
+}
+.list p {
+    color: #63769d;
+    font-family: LatoBlackItalic;
+    margin-right: 50px;
+}
+
+.mountain-2{
+        background-image: url("background/mountain-2.jpg");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 600px;
+        width: 100%;
+        position: relative;
+}
+.mountain-1{
+        background-image: url("background/mountain-1.jpg");
+        background-position: right;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60vh;
+        width: 100%;
+        position: relative;
+}
+
+section {
+    display: block;
+    overflow: hidden;
+}
+
+section.mountains .mon {
+    display: none !important;
+    opacity: 0;
+}
+section.mountains .mon.active {
+    display: block !important;
+    opacity: 1;
+}
+.mountain .mountain-nev ul li a.active {
+    background: #b0b4be;
+}
+
+.mountain .mountain-nev ul li a.active {
+    color: #0d2f3c;
+    text-decoration: underline;
+}
+
+.history-1 .description {
+    margin-left: 8%;
+}
+.container {
+    width: 60%;
+    margin: auto;
+}
+.mountain {
+    background: #414f6b;
+    margin: 0px;
+}
+.history-1 {
+    /* margin-left: 2%; */
+}
+
+.slider-btn {
+    display: inline-block;
+    flex: none;
+    width: 100%;
+    background: #3c496099;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.slider-btn ul li {
+    width: 10px;
+    height: 10px;
+    background: #616b7e;
+    border-radius: 50%;
+    list-style: none;
+}.history .dc {
+    margin-bottom: 1%;
+    width: -webkit-fill-available;
+    left: 0;
+}
+.history .hp {
+    margin-left: 2%;
+}
+.slider-btn ul li.active {
+    background:white;
+}
+.nev {
+    background: unset;
+    transform: scale(0);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: -webkit-fill-available;
+}
+.nev.active {
+    background: white;
+    transform: scale(1);
+    transition: 0.5ms;
+    z-index: 1;
+}
+.history .title-1 {
+    width: max-content;
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    
+
+    .header-us .img-list {
+        display: grid;
+        text-align: center;
+    }
+    
+    .header-us {background-position: 39% 0%;height: 50vh;background-size: 210%;}
+    
+    .Sticky-Nav {
+        display: grid;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .title-1 h3 {
+    bottom: 23% !important;
+    right: -32% !important;
+    bottom: 0%;
+    left: unset;
+    }
+    
+    .history-1 .description {
+        margin-left: 0;
+        width: -webkit-fill-available;
+    }
+    
+    .history-1 .description p {
+        width: 98% !IMPORTANT;
+    }
+    
+    .history-all {width: 100%;height: 70vh;background-size: 200%;}
+    
+    .history .image {overflow-x: scroll;margin-top: 38px !important;grid-column-gap: 3% !important;}
+    
+    .history .hp {
+        margin-left: 1%;
+    }
+    
+    .history .dc {
+        /* padding: 50px; */
+        margin-bottom: 0;
+    }
+    
+    .history {
+        display: block;
+        margin-top: -20px;
+    }
+    
+    .image .image-us img {
+        width: 90px !important;
+        height: 55px !important;
+        object-fit: cover !important;
+    }
+    
+    .history-2 .history-us {
+        display: grid;
+    }
+    
+    .description-2 p {
+        width: 95%;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    
+    .title-2 h3 {
+        bottom: 28%;
+        right: -24%;
+    }
+    
+    .title-2 {
+        width: max-content;
+    }
+    
+    .mountain .mountain-nev ul {
+        justify-content: center;
+    }
+    
+    .mon .schedule {
+        margin-left: 18px !important;
+    }
+    
+    .footer-us {
+        display: grid;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    .list p {
+        margin: 10px auto;
+    }
+    
+    section.mountains .mon {
+        height: 42vh;
+    }
+
+
+
+  }
+
+  
+
+@media only screen and (max-width: 1200px) {
+    
+
+    .header-us .img-list {
+        display: grid;
+        text-align: center;
+    }
+    
+    .header-us {/* background-position: 39% 0%; */height: 70vh;/* background-size: 210%; */}
+    
+    .Sticky-Nav {
+        display: grid;
+    }
+    
+    .container {
+        width: 100%;
+    }
+    
+    .title-1 h3 {
+    bottom: 25%;
+    right: -32%;
+    left: unset;
+    }
+    
+    .history-1 .description {
+        margin-left: 0;
+        width: -webkit-fill-available;
+    }
+    
+    .history-1 .description p {
+        width: 100%;
+    }
+    
+    .history-all {width: 100%;height: 70vh;background-size: 200%;}
+    
+    .history .image {overflow-x: scroll;margin-top: 150px;grid-column-gap: 3%;}
+    
+    .history .hp {
+        margin-left: 1%;
+    }
+    
+    .history .dc {
+        /* padding: 50px; */
+        margin-bottom: 0;
+    }
+    
+    .history {
+        display: block;
+    }
+    
+    .image .image-us img {
+        width: 220px;
+        height: 110px;
+        object-fit: cover;
+    }
+    
+    .history-2 .history-us {
+        display: grid;
+    }
+    
+    .description-2 p {
+        width: 100%;
+        padding-left: 0;
+        padding-bottom: 20px;
+    }
+    
+    .title-2 h3 {
+        bottom: 28%;
+        right: -24%;
+    }
+    
+    .title-2 {
+        width: max-content;
+    }
+    
+    .mountain .mountain-nev ul {
+        justify-content: center;
+    }
+    
+    .mon .schedule {
+        margin-left: 10%;
+    }
+    
+    .footer-us {
+        display: grid;
+        text-align: center;
+        padding: 20px 0px;
+    }
+    
+    .list p {
+        margin: 10px auto;
+    }
+    
+    section.mountains .mon {
+        height: 42vh;
+    }
+
+
+
+  }
